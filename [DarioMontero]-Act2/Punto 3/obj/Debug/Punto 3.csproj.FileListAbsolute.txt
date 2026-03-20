@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\Repositorio Dario Montero\[DarioMontero]-Act2\Punto 3\bin\Debug\Punto 3.exe.config
+C:\Users\alumno\Desktop\Repositorio Dario Montero\[DarioMontero]-Act2\Punto 3\bin\Debug\Punto 3.exe
+C:\Users\alumno\Desktop\Repositorio Dario Montero\[DarioMontero]-Act2\Punto 3\bin\Debug\Punto 3.pdb
+C:\Users\alumno\Desktop\Repositorio Dario Montero\[DarioMontero]-Act2\Punto 3\obj\Debug\Punto 3.csproj.AssemblyReference.cache
+C:\Users\alumno\Desktop\Repositorio Dario Montero\[DarioMontero]-Act2\Punto 3\obj\Debug\Punto 3.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Repositorio Dario Montero\[DarioMontero]-Act2\Punto 3\obj\Debug\Punto 3.exe
+C:\Users\alumno\Desktop\Repositorio Dario Montero\[DarioMontero]-Act2\Punto 3\obj\Debug\Punto 3.pdb

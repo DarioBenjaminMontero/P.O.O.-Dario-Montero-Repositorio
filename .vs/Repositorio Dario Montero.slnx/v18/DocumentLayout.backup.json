@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{492588E8-2D62-42EB-9CC4-400EAC211730}|Punto 1\\punto 1\\punto 1\\punto 1.csproj|c:\\users\\alumno\\desktop\\repositorio dario montero\\punto 1\\punto 1\\punto 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492588E8-2D62-42EB-9CC4-400EAC211730}|Punto 1\\punto 1\\punto 1\\punto 1.csproj|solutionrelative:punto 1\\punto 1\\punto 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto5\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:[DarioMontero]-Act1\\punto 1\\punto5\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\Punto 1\\punto 1\\Punto 2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Punto 1\\punto 1\\Punto 2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:[DarioMontero]-Act1\\punto 1\\punto 4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:[DarioMontero]-Act1\\punto 1\\punto 3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\Punto 2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:[DarioMontero]-Act1\\punto 1\\Punto 2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:[DarioMontero]-Act1\\punto 1\\punto 1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 6\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:[DarioMontero]-Act1\\punto 1\\punto 6\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +34,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\Punto 1\\punto 1\\Punto 2\\Program.cs",
-              "RelativeDocumentMoniker": "Punto 1\\punto 1\\Punto 2\\Program.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\Punto 1\\punto 1\\Punto 2\\Program.cs",
-              "RelativeToolTip": "Punto 1\\punto 1\\Punto 2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:29:04.041Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\Punto 1\\punto 1\\punto 1\\Program.cs",
-              "RelativeDocumentMoniker": "Punto 1\\punto 1\\punto 1\\Program.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\Punto 1\\punto 1\\punto 1\\Program.cs",
-              "RelativeToolTip": "Punto 1\\punto 1\\punto 1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAC8AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto5\\Program.cs",
+              "RelativeDocumentMoniker": "[DarioMontero]-Act1\\punto 1\\punto5\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto5\\Program.cs",
+              "RelativeToolTip": "[DarioMontero]-Act1\\punto 1\\punto5\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:23:03.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T13:11:08.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 6\\Program.cs",
+              "RelativeDocumentMoniker": "[DarioMontero]-Act1\\punto 1\\punto 6\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 6\\Program.cs",
+              "RelativeToolTip": "[DarioMontero]-Act1\\punto 1\\punto 6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:09:35.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 4\\Program.cs",
+              "RelativeDocumentMoniker": "[DarioMontero]-Act1\\punto 1\\punto 4\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 4\\Program.cs",
+              "RelativeToolTip": "[DarioMontero]-Act1\\punto 1\\punto 4\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:09:34.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 3\\Program.cs",
+              "RelativeDocumentMoniker": "[DarioMontero]-Act1\\punto 1\\punto 3\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 3\\Program.cs",
+              "RelativeToolTip": "[DarioMontero]-Act1\\punto 1\\punto 3\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:09:32.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\Punto 2\\Program.cs",
+              "RelativeDocumentMoniker": "[DarioMontero]-Act1\\punto 1\\Punto 2\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\Punto 2\\Program.cs",
+              "RelativeToolTip": "[DarioMontero]-Act1\\punto 1\\Punto 2\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:09:29.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 1\\Program.cs",
+              "RelativeDocumentMoniker": "[DarioMontero]-Act1\\punto 1\\punto 1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\Repositorio Dario Montero\\[DarioMontero]-Act1\\punto 1\\punto 1\\Program.cs",
+              "RelativeToolTip": "[DarioMontero]-Act1\\punto 1\\punto 1\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:09:16.918Z"
             }
           ]
         }
