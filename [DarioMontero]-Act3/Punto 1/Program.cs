@@ -10,6 +10,23 @@ namespace Punto_1
     {
         static void Main(string[] args)
         {
+
+            int dia, mes, año;
+            string linea;
+            Console.Write("Escribe un dia: ");
+            linea = Console.ReadLine();
+            dia = int.Parse(linea);
+            Console.Write("Escribe un mes: ");
+            linea = Console.ReadLine();
+            mes = int.Parse(linea);
+            Console.Write("Escribe un año: ");
+            linea = Console.ReadLine();
+            año = int.Parse(linea);
+
+            DateTime fecha = new DateTime(año, mes, dia);
+            if (mes == 12 && dia == 25){
+                Console.Write("Es navidad");
+            }
         }
     }
 }
