@@ -21,7 +21,7 @@ namespace Punto_2
                 x = x+ 1;
             
             }
-
+            Console.ReadKey();
         }
     }
 }
