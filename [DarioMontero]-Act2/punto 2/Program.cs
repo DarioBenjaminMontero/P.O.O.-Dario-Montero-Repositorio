@@ -10,7 +10,7 @@ namespace punto_2
     {
         static void Main(string[] args)
         {
-
+            //Se ingresan seis notas de un alumno, si el promedio es mayor o igual a siete mostrar un mensaje "Promocionado"
             float numero1, numero2, numero3, numero4, numero5, numero6, promedio, suma;
             string linea;
 
@@ -42,7 +42,7 @@ namespace punto_2
             if (promedio >= 7) {
                 Console.WriteLine("el alumno fue promocionado");
             }
-
+            Console.ReadKey();
         }
     }
 }

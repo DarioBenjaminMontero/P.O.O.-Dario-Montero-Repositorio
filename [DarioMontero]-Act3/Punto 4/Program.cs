@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,8 @@ namespace Punto_2
     {
         static void Main(string[] args)
         {
+            //Se ingresan por teclado tres números, si al menos uno de los valores ingresados es menor a 10, imprimir en pantalla la leyenda "Alguno de los números es menor a diez".
+
             int num1, num2, num3;
             string linea;
             Console.WriteLine("ingresa el primer numero: ");
@@ -27,7 +30,7 @@ namespace Punto_2
                 Console.WriteLine("Alguno de los numeros es menor a 10");
             }
 
-
+            Console.ReadKey();
 
         }
     }

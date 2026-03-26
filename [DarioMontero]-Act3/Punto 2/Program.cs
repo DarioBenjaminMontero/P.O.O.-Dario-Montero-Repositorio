@@ -10,6 +10,8 @@ namespace Punto_2
     {
         static void Main(string[] args)
         {
+
+            // Se ingresan tres valores por teclado, si todos son iguales se imprime la suma del primero con el segundo y a este resultado se lo multiplica por el tercero.
             int num1, num2, num3, suma, producto;
             string linea;
             Console.WriteLine("ingresa el primer numero: ");
@@ -27,8 +29,8 @@ namespace Punto_2
                 Console.WriteLine(suma);
                 producto = suma * num3;
                 Console.WriteLine(producto);
-            } 
-
+            }
+            Console.ReadKey();
         }
     }
 }

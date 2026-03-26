@@ -10,6 +10,8 @@ namespace Punto_2
     {
         static void Main(string[] args)
         {
+            //Se ingresan por teclado tres números, si todos los valores ingresados son menores a 10, imprimir en pantalla la leyenda "Todos los números son menores a diez"
+
             int num1, num2, num3;
             string linea;
             Console.WriteLine("ingresa el primer numero: ");
@@ -26,7 +28,7 @@ namespace Punto_2
                 Console.WriteLine("todos los numeros son menores a 10");
             }
 
-            
+            Console.ReadKey();
 
         }
     }

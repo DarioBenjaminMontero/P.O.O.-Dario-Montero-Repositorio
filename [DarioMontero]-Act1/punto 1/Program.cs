@@ -19,9 +19,9 @@ namespace punto_1
             
             linea = Console.ReadLine();
             numero1 = int.Parse(linea);
-            perimetro = numero1 / 4;
+            perimetro = numero1 * 4;
             Console.WriteLine(perimetro);
-            
+            Console.ReadKey();
 
         }
     }

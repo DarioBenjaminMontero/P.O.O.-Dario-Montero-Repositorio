@@ -10,7 +10,7 @@ namespace Punto_1
     {
         static void Main(string[] args)
         {
-
+            //Realizar un programa que pida cargar una fecha cualquiera, luego verificar si dicha fecha corresponde a Navidad.
             int dia, mes, año;
             string linea;
             Console.Write("Escribe un dia: ");
@@ -27,6 +27,7 @@ namespace Punto_1
             if (mes == 12 && dia == 25){
                 Console.Write("Es navidad");
             }
+            Console.ReadKey();
         }
     }
 }

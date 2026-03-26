@@ -10,6 +10,8 @@ namespace Punto_4
     {
         static void Main(string[] args)
         {
+
+            //Se cargan por teclado tres números distintos. Mostrar por pantalla el mayor de ellos.
             float numero1, numero2, numero3;
             string linea;
             Console.WriteLine("Ingresa 3 numeros: ");
@@ -50,6 +52,7 @@ namespace Punto_4
                 }
             
             }
+            Console.ReadKey();
         }
     }
 }
