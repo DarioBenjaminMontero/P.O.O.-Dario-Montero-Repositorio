@@ -25,19 +25,49 @@ b) La suma total de los saldos acreedores.*/
 
             string texto, linea;
             int saldo = 0;
+            int suma = 0;
             int numeroCuenta;
+            texto = "";
             do
             {
                 Console.WriteLine("Ingresa el numero de cuenta, si es negativo entonces termina: ");
                 linea = Console.ReadLine();
                 numeroCuenta = int.Parse(linea);
+                if (numeroCuenta >= 0) {
+                    texto = texto + "numero de Cuenta: ";
+                    texto = texto + numeroCuenta.ToString();
+                    Console.WriteLine("escribe un saldo para este Numero de cuenta");
+                    linea = Console.ReadLine();
+                    saldo = int.Parse(linea);
+                    if (saldo > 0) {
+                        texto += ". Estado de cuenta: acreedor. \n ";
+                        suma = suma + saldo;
+
+                    }
+                    if (saldo < 0)
+                    {
+                        texto += ". Estado de cuenta: deudor.\n ";
+
+                    }
+                    if (saldo == 0)
+                    {
+                        texto += ". Estado de cuenta: nulo. \n";
+
+                    }
+
+                    
+
+                }
 
 
 
 
             } while (numeroCuenta >= 0);
 
+            Console.WriteLine(texto);
+            Console.WriteLine(suma);
 
+            Console.ReadKey();
 
 
         }
