@@ -70,7 +70,7 @@ promedio de edades menor.*/
                 Console.WriteLine("los que tienen menor promedio de edad son los de la noche");
             }
 
-
+            Console.ReadKey();
         }
     }
 }
