@@ -34,10 +34,10 @@ namespace Punto_1
                 linea = Console.ReadLine();
                 sueldo = int.Parse(linea);
 
-                if (sueldo > 100 && sueldo <= 500)
+                if (sueldo >= 100 && sueldo <= 500)
                 {
 
-                    if (sueldo > 100 && sueldo <= 300)
+                    if (sueldo >= 100 && sueldo <= 300)
                     {
 
                         entre100y300 = entre100y300 + 1;
