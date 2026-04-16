@@ -27,11 +27,11 @@ ordenado de menor a mayor y de mayor a menor.*/
         }
         public void verificar() {
             for (int i = 0; i < vector.Length-1; i++) {
-                if (vector[i] < vector[i + 1])
+                if (vector[i] <= vector[i + 1])
                 {
                     posicionesMenorMayor++;
                 }
-                else if (vector[i] > vector[i + 1]) {
+                else if (vector[i] >= vector[i + 1]) {
                     posicionesMayorMenor++;
                 }
             
