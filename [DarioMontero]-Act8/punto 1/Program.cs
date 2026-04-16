@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace punto_1
 {
     internal class Elementos
-    {
+    {/*1. Cargar un vector de n elementos. imprimir el menor y un mensaje si se repite dentro
+del vector.*/
         private int[] vector;
         private int min;
         public void Cargar() {
