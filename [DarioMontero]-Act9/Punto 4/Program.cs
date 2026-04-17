@@ -16,9 +16,27 @@ desaprobaron (tomando como base que se aprueba con una nota mayor o igual
 a 6)*/
 
         private string[] docentes;
-        private int[] puntuaciones;
+        private float[] puntuaciones;
 
-        public void(){}
+        public void cargar(){
+            docentes = new string[6];
+            puntuaciones = new float[6];
+            string linea;
+
+            for (int i = 0; i < puntuaciones.Length; i++) {
+
+                Console.WriteLine("escribe el nombre de un docente");
+                linea = Console.ReadLine();
+                docentes[i] = linea;
+                Console.WriteLine("Ahora escribi una puntuacion de 1 a 10");
+                linea = Console.ReadLine();
+                puntuaciones[i] = int.Parse(linea);
+                if (puntuaciones[i] < 1 || puntuaciones[i] > 10) {
+                    Console.WriteLine("Escribe una puntuacion de 1 a 10, intentalo de nuevo");
+                    i--;
+                }
+            }
+        }
 
         static void Main(string[] args)
         {
