@@ -39,7 +39,7 @@ Cantidad de valores mayores a 50.*/
             for (int i = 0; i < 8; i++) {
                  
                 if (valores[i] >= 36) {
-                    if (valores[i] >= 50)
+                    if (valores[i] > 50)
                     {
                         cantValoresMayoresA50 ++;
                     }

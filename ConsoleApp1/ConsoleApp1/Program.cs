@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            ConsoleKeyInfo tecla;
+
+            while (true)
+            {
+                int[] vecNumeros = { 1, 2, 31, 40, 5 };
+                int indice, suma, cantPares, cantMayores;
+
+                Console.WriteLine("1. Suma total");
+                Console.WriteLine("2. Promedio ");
+                Console.WriteLine("3. Cuantos pares");
+                Console.WriteLine("4. Cuantos mayores 10");
+                Console.WriteLine("5. Salir");
+                tecla = Console.ReadKey();
+
+                switch (tecla.Key)
+                {
+                    case ConsoleKey.D1:
+                        suma = 0;
+                        for (indice = 0; indice < vecNumeros.Length; indice++)
+                            suma += vecNumeros[indice];
+                        Console.Clear();
+                        Console.WriteLine($"La suma de todos los numeros es: {suma}");
+                        break;
+                    case ConsoleKey.D2:
+                        suma = 0;
+                        for (indice = 0; indice < vecNumeros.Length; indice++)
+                            suma = suma + vecNumeros[indice];
+                        Console.Clear();
+                        Console.WriteLine($"La suma de todos los numeros es: {suma / vecNumeros.Length}");
+                        break;
+                    case ConsoleKey.D3:
+                        cantPares = 0;
+                        for (indice = 0; indice < vecNumeros.Length; indice++)
+                            if (vecNumeros[indice] % 2 == 0)
+                                cantPares++;
+                        Console.Clear();
+                        Console.WriteLine($"La cantidad de pares es: {cantPares}");
+                        break;
+                    case ConsoleKey.D4:
+                        cantMayores = 0;
+                        for (indice = 0; indice < vecNumeros.Length; indice++)
+                        {
+                            if (vecNumeros[indice] > 10)
+                            {
+                                cantMayores++;
+                            }
+                        }
+                        Console.Clear();
+                        Console.WriteLine($"La cantidad de pares es: {cantMayores}");
+                        break;
+                    case ConsoleKey.D5:
+                        return;
+                }
+            }
+        }
+    }
+}
