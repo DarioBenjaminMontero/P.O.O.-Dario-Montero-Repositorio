@@ -25,7 +25,7 @@ Realizar la carga por teclado e imprimir posteriormente.*/
         public void cargar() {
             string linea;
             for (int i = 0; i < irregular.GetLength(0); i++) {
-                for (int f = 0; f < irregular[i].GetLength(1); i++) {
+                for (int f = 0; f < irregular[i].Length; f++) {
                     Console.WriteLine("escribe el valor de la fila " + (i + 1) + " en la columna " + (f+1)); 
                     linea = Console.ReadLine();
                     irregular[i][f] = int.Parse(linea);
@@ -36,7 +36,7 @@ Realizar la carga por teclado e imprimir posteriormente.*/
         {
             for (int i = 0; i < irregular.GetLength(0); i++)
             {
-                for (int f = 0; f < irregular[i].GetLength(1); i++)
+                for (int f = 0; f < irregular[i].Length; f++)
                 {
                     Console.Write(irregular[i][f] + "  ");
                 }
