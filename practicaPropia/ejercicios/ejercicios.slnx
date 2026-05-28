@@ -1,5 +1,7 @@
 <Solution>
-  <Project Path="ejercicio 1/ejercicio 1.csproj" />
-  <Project Path="ejercicio 2/ejercicio 2.csproj" />
-  <Project Path="ejercicio 3 (listas)/ejercicio 3 (listas).csproj" />
+  <Project Path="ejercicio 1/ejercicio 1.csproj" Id="40f95903-b5d7-4aa2-a69c-107c9df1bb82" />
+  <Project Path="ejercicio 2/ejercicio 2.csproj" Id="e3d04aa0-b754-45c8-b8c5-aaf6efa107ff" />
+  <Project Path="ejercicio 3 (listas)/ejercicio 3 (listas).csproj" Id="98398556-84fa-4e31-965f-b04f735a31a7" />
+  <Project Path="ejercicio 4 (Objetos)/ejercicio 4 (Objetos).csproj" Id="6c91b9b1-e8f7-4668-99fa-c06bcd1e3687" />
+  <Project Path="ejercicio 5 (Objetos)/ejercicio 5 (Objetos).csproj" Id="fd759516-b51d-4d09-836c-66df8989dd88" />
 </Solution>
