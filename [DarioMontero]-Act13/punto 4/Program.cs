@@ -106,15 +106,15 @@ namespace punto_4
             for (int i = 0; i < Alumnos.Length; i++)
             {
                 float[] notas = Alumnos[i].retornarNotas();
-                bool desaprobado = false;
+                int desaprobado = 0;
                 for (int j = 0; j < notas.Length; j++)
                 {
                     if (notas[j] < 6)
                     {
-                        desaprobado = true;
+                        desaprobado += 1;
                     }
                 }
-                if (desaprobado == true)
+                if (desaprobado > 1)
                 {
                     Console.WriteLine(
                         "el alumno "
