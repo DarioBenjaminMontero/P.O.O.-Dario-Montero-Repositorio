@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 namespace punto_2
 {
 
-    class Pasajero {
+    class Pasajero
+    {
         private string Nombre;
         private int DNI;
         private float EquipajeKilos;
 
-        public Pasajero() {
+        public Pasajero()
+        {
             string linea;
             Console.WriteLine("escribe el nombre del pasajero");
             Nombre = Console.ReadLine();
@@ -24,37 +26,73 @@ namespace punto_2
             EquipajeKilos = float.Parse(linea);
         }
 
-        public string devolverNombre() {
+        public string devolverNombre()
+        {
             return Nombre;
         }
-        public int devolverDNI() {
+        public int devolverDNI()
+        {
             return DNI;
         }
-        public float devolvertPeso() {
+        public float devolverPeso()
+        {
             return EquipajeKilos;
         }
-        
+
     }
 
 
     class Vuelo
     {
         private Pasajero[] Pasajeros;
+        private float pesoTotal;
         public Vuelo()
         {
             Pasajeros = new Pasajero[4];
-            for (int i = 0; i < Pasajeros.Length; i++) {
+            for (int i = 0; i < Pasajeros.Length; i++)
+            {
                 Pasajeros[i] = new Pasajero();
             }
         }
 
-        public void devolverDatos() {
-        
+        public void mostrarDatos()
+        {
+            for (int i = 0; i < Pasajeros.Length; i++)
+            {
+                Console.WriteLine("el nombre del pasajero es: " + Pasajeros[i].devolverNombre() + " Y su DNI es: " + Pasajeros[i].devolverDNI());
+                Console.WriteLine("el peso del equipaje del pasajero es: " + Pasajeros[i].devolverPeso());
+                Console.WriteLine("____________________________");
+            }
+        }
+
+        public void PesoTotal()
+        {
+            pesoTotal = 0;
+            for (int i = 0; i < Pasajeros.Length; i++)
+            {
+                pesoTotal += Pasajeros[i].devolverPeso();
+            }
+            Console.WriteLine("el peso total que hay en el Vuelo es de: ");
+            Console.WriteLine(pesoTotal);
+            Console.WriteLine();
+        }
+        public void excedeLimite()
+        {
+            for (int i = 0; i < Pasajeros.Length; i++)
+            {
+                if (Pasajeros[i].devolverPeso() > 23)
+                {
+                    Console.WriteLine("el pasajero " + Pasajeros[i].devolverNombre() + " y con el DNI: " + Pasajeros[i].devolverDNI() + ". ha excedido el limite de peso");
+                }
+            }
         }
         static void Main(string[] args)
         {
-
-
+            Vuelo vuelo = new Vuelo();
+            vuelo.mostrarDatos();
+            vuelo.PesoTotal();
+            vuelo.excedeLimite();
+            Console.ReadKey();
 
         }
     }
