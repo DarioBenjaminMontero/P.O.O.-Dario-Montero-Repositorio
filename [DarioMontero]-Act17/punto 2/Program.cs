@@ -24,6 +24,27 @@ catálogo.*/
         private int duracionMinutos;
         private int calificacion;
 
+        public string Titulo
+        {
+            set { titulo = value; }
+            get { return titulo; }
+        }
+        public int DuracionMinutos
+        {
+            set
+            {
+                duracionMinutos = value;
+            }
+            get { return duracionMinutos; }
+        }
+        public int Calificacion
+        {
+            set
+            {
+                calificacion = value;
+            }
+            get { return calificacion; }
+        }
         public Pelicula() {
             string linea;
             Console.WriteLine("ingresa el titulo de la pelicula");
@@ -49,23 +70,7 @@ catálogo.*/
             }
         }
 
-        public string Titulo {
-            set { titulo = value; }
-            get { return titulo; }
-        }
-        public int DuracionMinutos {
-            set
-            {
-                    duracionMinutos = value;   
-                    }
-            get { return duracionMinutos; }
-        }
-        public int Calificacion {
-            set {
-                calificacion = value;
-                    }
-            get { return calificacion; }
-        }
+        
     }
     internal class Catalogo 
     {

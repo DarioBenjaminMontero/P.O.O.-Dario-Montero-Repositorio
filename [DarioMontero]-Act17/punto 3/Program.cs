@@ -19,12 +19,9 @@ de cada clase derivada en el Main y mostrar la totalidad de sus datos por consol
     class Computadora {
         private string marca;
         private int memoria;
-        public Computadora(string marcaPuesta, int memoriaPuesta) {
-            marca = marcaPuesta;
-            memoria = memoriaPuesta;
-        }
-        public string Marca {
-            set{ marca = value; }
+        public string Marca
+        {
+            set { marca = value; }
             get { return marca; }
         }
         public int Memoria
@@ -32,17 +29,23 @@ de cada clase derivada en el Main y mostrar la totalidad de sus datos por consol
             set { memoria = value; }
             get { return memoria; }
         }
+        public Computadora(string marcaPuesta, int memoriaPuesta) {
+            marca = marcaPuesta;
+            memoria = memoriaPuesta;
+        }
+        
     }
     class Notebook : Computadora {
         private float tamanoPantalla;
-        public Notebook(string marca, int memoria, float tamanoPantalla) : base (marca, memoria) { 
-        this.tamanoPantalla = tamanoPantalla;
-        }
         public float TamanoPantalla
         {
             set { tamanoPantalla = value; }
-            get { return tamanoPantalla;  }
+            get { return tamanoPantalla; }
         }
+        public Notebook(string marca, int memoria, float tamanoPantalla) : base (marca, memoria) { 
+        this.tamanoPantalla = tamanoPantalla;
+        }
+        
         public void imprimir() {
             Console.WriteLine("la marca de la notebook es " + base.Marca);
             Console.WriteLine("la memoria de la notebook es " + base.Memoria + " gigas");
@@ -52,15 +55,16 @@ de cada clase derivada en el Main y mostrar la totalidad de sus datos por consol
     class Escritorio : Computadora
     {
         private int potenciaFuente;
-        public Escritorio(string marca, int memoria, int potenciaFuente) : base(marca, memoria)
-        {
-            this.potenciaFuente = potenciaFuente;
-        }
         public int PotenciaFuente
         {
             set { potenciaFuente = value; }
             get { return potenciaFuente; }
         }
+        public Escritorio(string marca, int memoria, int potenciaFuente) : base(marca, memoria)
+        {
+            this.potenciaFuente = potenciaFuente;
+        }
+        
         public void imprimir()
         {
             Console.WriteLine("la marca del escritorio es " + base.Marca);
