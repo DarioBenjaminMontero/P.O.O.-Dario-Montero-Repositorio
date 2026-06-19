@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5B6B87F-B942-492B-92E2-8D59F1548916}</ProjectGuid>
+    <ProjectGuid>{B1BA66FB-2020-425D-A8FE-2682218E025A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>punto_2</RootNamespace>
-    <AssemblyName>punto 2</AssemblyName>
+    <RootNamespace>punto_3</RootNamespace>
+    <AssemblyName>punto_3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="archivo1.cs" />
-    <Compile Include="archivo2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
