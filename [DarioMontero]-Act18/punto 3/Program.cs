@@ -24,41 +24,48 @@ parámetros unificados por consola.*/
     class SondaExploradora {
         private string modelo;
         private int autonomiaMinutos;
-        public SondaExploradora(int autonomiaRecibida, string modeloRecibido) {
-            modelo = modeloRecibido;
-            autonomiaMinutos = autonomiaRecibida;
-        }
-        public string Modelo {
+        public string Modelo
+        {
             set { modelo = value; }
             get { return modelo; }
         }
         public int AutonomiaMinutos
         {
             set { autonomiaMinutos = value; }
-            get{ return autonomiaMinutos;}
+            get { return autonomiaMinutos; }
+        }
+        public SondaExploradora(int autonomiaRecibida, string modeloRecibido) {
+            modelo = modeloRecibido;
+            autonomiaMinutos = autonomiaRecibida;
+        }
+        
     }
     class SondaSubmarina : SondaExploradora{
             private int presionMaximaAtm;
+        public int PresionMaximaAtm
+        {
+            set { presionMaximaAtm = value; }
+            get { return presionMaximaAtm; }
+        }
         public SondaSubmarina(int presionRecibida, int autonomiaRecibida, string modeloRecibido) : base(autonomiaRecibida, modeloRecibido)
         { 
         presionMaximaAtm = presionRecibida;
         }
-            public int PresionMaximaAtm {
-                set { presionMaximaAtm = value; }get{ return presionMaximaAtm; }
-            }
+            
      }
     class RoverTerreste : SondaExploradora
     {
             private int cantidadRuedas;
-            public RoverTerreste(int cantidadRuedasRecibida, int autonomiaRecibida, string modeloRecibido) : base(autonomiaRecibida, modeloRecibido)
+        public int CantidadRuedas
+        {
+            set { cantidadRuedas = value; }
+            get { return cantidadRuedas; }
+        }
+        public RoverTerreste(int cantidadRuedasRecibida, int autonomiaRecibida, string modeloRecibido) : base(autonomiaRecibida, modeloRecibido)
         {
                 cantidadRuedas = cantidadRuedasRecibida;
         }
-            public int CantidadRuedas
-            {
-                set { cantidadRuedas = value; }
-                get { return cantidadRuedas; }
-            }
+            
             static void Main(string[] args)
         {
                 SondaSubmarina sonda = new SondaSubmarina(20, 20, "xd");
@@ -68,4 +75,4 @@ parámetros unificados por consola.*/
                 Console.ReadKey();
             }
     }
-}}
+}

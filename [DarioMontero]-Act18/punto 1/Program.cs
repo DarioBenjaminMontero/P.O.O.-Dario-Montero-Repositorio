@@ -25,7 +25,19 @@ puede acceder tanto a sus propiedades heredadas como a las propias para realizar
 muestra de información.*/
         private string codigoIdentificador;
         private double generacionKwh;
+
+        public string CodigoIdentificador
+        {
+            set { codigoIdentificador = value; }
+            get { return codigoIdentificador; }
+        }
+        public double GeneracionKwh
+        {
+            set { generacionKwh = value; }
+            get { return generacionKwh; }
+        }
         public DispositivoEnergia() {
+
             string linea;
             Console.WriteLine("escribe  el codigo identificador");
             codigoIdentificador = Console.ReadLine();
@@ -37,14 +49,7 @@ muestra de información.*/
             }
         }
 
-        public string CodigoIdentificador
-        {
-            set { codigoIdentificador = value; }
-            get { return codigoIdentificador; }
-        }
-        public double GeneracionKwh{
-            set { generacionKwh = value; } get{ return generacionKwh; }
-        }
+        
 
 
         public void imprimir() {

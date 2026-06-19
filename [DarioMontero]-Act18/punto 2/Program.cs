@@ -23,7 +23,21 @@ nivel de salinidad para sobrevivir.*/
     class CriaturaMarina {
         private string especie;
         private int profundidadOptima, nivelSalinidad;
-        
+        public string Especie
+        {
+            set { especie = value; }
+            get { return especie; }
+        }
+        public int ProfunidadOptima
+        {
+            set { profundidadOptima = value; }
+            get { return profundidadOptima; }
+        }
+        public int NivelSalinidad
+        {
+            set { nivelSalinidad = value; }
+            get { return nivelSalinidad; }
+        }
         public CriaturaMarina(){
             string linea;
             Console.WriteLine("escribi su especie");
@@ -49,21 +63,6 @@ nivel de salinidad para sobrevivir.*/
             if (nivelSalinidad < 1 || nivelSalinidad > 100) {
                 nivelSalinidad = 35;
             }
-        }
-
-public string Especie
-        {
-            set { especie = value; }
-            get { return especie; }
-        }
-        public int ProfunidadOptima
-        {
-            set { profundidadOptima = value;  }
-            get { return profundidadOptima; }
-        }
-        public int NivelSalinidad
-        {
-            set { nivelSalinidad = value; } get { return nivelSalinidad; }
         }
     
     }
