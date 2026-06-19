@@ -9,9 +9,8 @@ namespace punto_4
 {
     class Animal {
         private string especie;
-        public Animal() {
-            especie = "mamifero";
-
+        public Animal(string especieRecibida) {
+            especie = especieRecibida;
             Console.WriteLine("la especie es " + especie + ". esta informacion viene de Animal");
         }
         public string Especie {
@@ -21,8 +20,8 @@ namespace punto_4
     class Mamifero : Animal{
        private string tipoAlimentacion;
 
-        public Mamifero() {
-            tipoAlimentacion = "comida xd";
+        public Mamifero(string comidaRecibida, string especieRecibida) : base(especieRecibida){
+            tipoAlimentacion = comidaRecibida;
             Console.WriteLine("el tipo de alimentacion es " + tipoAlimentacion + ". esta informacion viene de Mamifero");
         }
 
@@ -36,8 +35,9 @@ namespace punto_4
     internal class Perro : Mamifero
     {
         private string nombre;
-        public Perro() {
-            nombre = "chufo";
+        public Perro(string nombreRecibido, string comidaRecibida, string especieRecibida) : base(comidaRecibida, especieRecibida) {
+            
+            nombre = nombreRecibido;
             Console.WriteLine("el nombre es " + nombre + ". esta informacion viene de Perro");
         }
         public string Nombre
@@ -47,7 +47,7 @@ namespace punto_4
         }
         static void Main(string[] args)
         {
-            Animal perro = new Perro();
+            Animal perro = new Perro("chufo", "personas", "mamifero");
             Console.ReadKey();
         }
     }
