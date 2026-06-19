@@ -10,6 +10,12 @@ namespace punto_3
     {
         static void Main(string[] args)
         {
+            JuegoArcade juego = new JuegoArcade();
+            juego.partida();
+            juego.partida();
+            juego.partida();
+            juego.partida();
+            Console.ReadKey();
         }
     }
 }

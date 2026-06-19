@@ -10,6 +10,21 @@ namespace punto_1
     {
         private string nombreCliente, tipoHabitacion;
         private int cantidadNoches;
+        public string NombreCliente
+        {
+            set { nombreCliente = value; }
+            get { return nombreCliente; }
+        }
+        public int CantidadNoches
+        {
+            set { cantidadNoches = value; }
+            get { return cantidadNoches; }
+        }
+        public string TipoHabitacion
+        {
+            set { tipoHabitacion = value; }
+            get { return tipoHabitacion; }
+        }
         public ReservaHotel() {
             string linea;
             Console.WriteLine("escribe el nombre del cliente: ");
@@ -40,21 +55,7 @@ namespace punto_1
             totalAPagar();
         }
 
-        public string NombreCliente
-        {
-            set { nombreCliente = value; }
-            get { return nombreCliente;  }
-        }
-        public int CantidadNoches
-        {
-            set { cantidadNoches = value; }
-            get { return cantidadNoches; }
-        }
-        public string TipoHabitacion
-        {
-            set { tipoHabitacion = value; }
-            get { return tipoHabitacion; }
-        }
+        
 
     }
 }

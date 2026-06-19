@@ -9,6 +9,13 @@ namespace punto_1
     partial class ReservaHotel
     {
         private int total;
+
+        public int Total
+        {
+            set { total = value; }
+            get { return total; }
+        }
+
         public void totalAPagar() {
             if (TipoHabitacion == "simple") {
                 total = CantidadNoches * 5000;
@@ -22,9 +29,6 @@ namespace punto_1
                 total = CantidadNoches * 12000;
             }
         }
-        public int Total { 
-        set { total = value; }
-            get { return total; }
-        }
+       
     }
 }

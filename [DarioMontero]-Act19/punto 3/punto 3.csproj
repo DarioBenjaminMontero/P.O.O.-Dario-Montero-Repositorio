@@ -7,7 +7,7 @@
     <ProjectGuid>{B1BA66FB-2020-425D-A8FE-2682218E025A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>punto_3</RootNamespace>
-    <AssemblyName>punto_3</AssemblyName>
+    <AssemblyName>punto 3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="archivo1.cs" />
+    <Compile Include="archivo2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

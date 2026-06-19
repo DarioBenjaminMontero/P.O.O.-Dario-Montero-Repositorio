@@ -10,6 +10,22 @@ namespace punto_2
     {
         private string titulo, autor;
         private int paginas;
+
+        public string Titulo
+        {
+            set { titulo = value; }
+            get { return titulo; }
+        }
+        public string Autor
+        {
+            set { autor = value; }
+            get { return titulo; }
+        }
+        public int Paginas
+        {
+            set { paginas = value; }
+            get { return paginas; }
+        }
         public Libro() {
             string linea;
             Console.WriteLine("escribe el Titulo del libro");
@@ -26,20 +42,6 @@ namespace punto_2
             }
            
         }
-        public string Titulo
-        {
-            set { titulo = value; }
-            get { return titulo;  }
-        }
-        public string Autor
-        {
-            set { autor = value; }
-            get { return titulo; }
-        }
-        public int Paginas
-        {
-            set { paginas = value; }
-            get { return paginas; }
-        }
+        
     }
 }
