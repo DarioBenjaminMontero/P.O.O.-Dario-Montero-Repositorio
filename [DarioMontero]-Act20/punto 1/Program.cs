@@ -62,7 +62,7 @@ namespace punto_1
         {
             List<VueloInternacional>vuelosInternacionales = new List<VueloInternacional>();
             
-            for (int i = 0; i < 2; i++) {
+            for (int i = 0; i < 5; i++) {
                 VueloInternacional v = new VueloInternacional();
                 vuelosInternacionales.Add(v);
             }
