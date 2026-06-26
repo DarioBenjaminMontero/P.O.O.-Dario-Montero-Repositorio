@@ -83,7 +83,7 @@ namespace punto_1
                 {
                     Console.WriteLine("el vuelo de numero " + vuelo.NumeroVuelo + " fue uno de los que mas duró con " + mayor + " horas");
                 }
-                Console.WriteLine("_________________________________________________________"); 
+                Console.WriteLine("__________________________________________________________"); 
             }
             Console.ReadKey();
         }
