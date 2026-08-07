@@ -55,7 +55,7 @@ namespace punto_2
             }
         }
         public void RemoverDronesBajos() {
-            for (int i = Drones.Count-1; i > 0; i--) {
+            for (int i = Drones.Count-1; i >= 0; i--) {
                 if (Drones[i].Bateria < 15) {
                     Console.WriteLine("el dron con el codigo " + Drones[i].Codigo + " tiene una bateria de " + Drones[i].Bateria + " y necesita mantenimiento urgentemente");
                 Drones.RemoveAt(i);
@@ -63,12 +63,43 @@ namespace punto_2
             }
         }
         public void MostrarDronesRestantes() {
+            Console.WriteLine("los drones que quedan activos son");
             foreach (Dron d in Drones) {
-                Console.WriteLine("los drones que quedan activos son");
+                Console.WriteLine("Codigo: " + d.Codigo + ". Bateria: " +d.Bateria);
             }
+            Console.WriteLine("la cantidad de drones activos es: " + Drones.Count);
         }
         static void Main(string[] args)
         {
+            CentroControl centro = new CentroControl();
+            for (int i = 0; i < 1; i++)
+            {
+                Console.WriteLine("1 para ver toda la flota, 2 para eliminar los drones que tienen baja bateria, 3 para ver los restantes, 4 para acabar el programa.");
+                int numero = int.Parse(Console.ReadLine());
+                if (numero < 1 || numero > 4)
+                {
+                    Console.WriteLine("Numero invalido, intente otra vez");
+                    i--;
+                }
+                else if (numero == 1)
+                {
+                    centro.ListarFlota();
+                    i--;
+                }
+                else if (numero == 2)
+                {
+                    centro.RemoverDronesBajos();
+                    i--;
+                }
+                else if (numero == 3)
+                {
+                    centro.MostrarDronesRestantes();
+                    i--;
+                }
+                else if (numero == 4)
+                { }
+            }
+            Console.ReadKey();
         }
     }
 }
