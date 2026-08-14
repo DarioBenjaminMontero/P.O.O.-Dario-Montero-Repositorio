@@ -43,7 +43,7 @@ namespace punto_4
         public void ProcesarSalida() {
             if (tickets.Count > 0)
             {
-                Console.WriteLine("salio el vehiculo de la pantente " + tickets[0].Patente + " que estuvo " + tickets[0].HorasEstadia + " horas");
+                Console.WriteLine("salio el vehiculo de la pantente " + tickets[0].Patente + " que estuvo " + tickets[0].HorasEstadia + " horas en la playa");
                 tickets.RemoveAt(0);
             }
             else {
@@ -89,6 +89,7 @@ namespace punto_4
                 else if (numero == 4)
                 { }
             }
+
             Console.ReadKey();
         }
     }
