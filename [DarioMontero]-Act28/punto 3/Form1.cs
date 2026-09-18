@@ -22,5 +22,10 @@ namespace punto_3
             string agregado = textBox1.Text;
             listBox1.Items.Add(agregado);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Remove(listBox1.SelectedItem);
+        }
     }
 }
